@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.cabeza {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+
+    background-attachment: fixed;
+    background-image: url(Imagenes/FONDOS/Fondo-Pixel-1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor {
+    margin-bottom: 80px;
+    padding: 20px 50px;
+    background-color:black;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: whitesmoke;
+    border-width: 1px;
+    
+}
+
+.menu .contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    color: aqua;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.gif{
+    height: 60px;
+    width: 400px;
+    float: left;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.menu .barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .barra ul li {
+    position: relative;
+
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    transition: all 0.3s ease 0;
+    text-decoration: overline;
+    color: aliceblue;
+	text-align: center;
+    text-transform: uppercase;
+}   
+
+.menu .barra ul li :hover {
+    border-radius: 15px; 
+    background-color: aquamarine;
+    color:black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.menu .barra ul li a {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu .barra ul li a:hover {
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.Historia {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.Desarrollo {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.Tiendas {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.Comunidad {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.Adaptación {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.Recreación {
+    padding: 30px 150px;
+    text-align: justify;
+}
+
+.box {
+    padding: 50px 100px;
+    background-color: #1f1f1f;
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+}
+
+.box p {
+    font-size: 20px;
+    color: aliceblue;
+    justify-content: space-between;
+    text-align: justify; 
+    margin-bottom: 0;
+    padding: 20px; 
+}
+
+.box img {
+    width: 800px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box h1 {
+    font-size: 40px;
+    color: aliceblue;
+    padding: 20px 0px;
+    border-bottom-style: solid;
+}
+
+.box h2 {
+    font-size: 30px;
+    color: aliceblue;
+    text-align: justify;
+    margin-top: 50px;
+    text-decoration:underline;
+    text-decoration-color: aliceblue;
+}
+
+.box ol {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box ul {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.box li {
+    color: rgb(9, 122, 221);
+    margin: 30px 20px;
+    text-transform: uppercase;
+}
+
+.lista-desarrollo {
+    text-align: left;
+}
+
+.lista-desarrollo a{
+    color: aquamarine;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+
+
+
+a {
+    color: aquamarine;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.carousel-inner img {
+    border-radius: 0%;
+    border-style: none;
+    padding: 30px 20px;
+}
+
+
+.botones-atajos {
+    bottom: 5%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+
+}
+.botones-atajos .atajos {
+    font-size: 1.8rem;
+    padding: 0 300px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+.botones-atajos .atajos :hover{
+    color: aquamarine;
+}
+
+
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .barra {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1f1f1f;
+        display: none
+    }
+
+    .menu .barra ul li {
+        width: 100%;
+    }
+    
+    #menu:checked ~ .barra {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-text {
+        margin-bottom: 15px;
+    }
+
+    .header-text h1 {
+        font-size: 90px;
+    }
+
+    .header-text p {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .header-direction {
+        flex-direction: column;
+    }
+
+    .direction p {
+        font-size: 18px;
+    }
+
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome-1 {
+        display: none;
+    }
+
+    .welcome-2 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    p {
+        margin: 15px 0;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .services-text p {
+        padding: 0;
+    }
+
+    .services-group {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .services-1 {
+        margin: 0 0 20px 0;
+    }
+
+    .personal-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .personal-1 {
+        margin-bottom: 25px;
+    }
+
+    .footer-bg {
+        padding: 30px;
+    }
+
+    textarea {
+        width: 250px !important;
+    }
+}
+
+
